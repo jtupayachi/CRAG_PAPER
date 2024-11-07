@@ -1,0 +1,4 @@
+git clone https://github.com/ggerganov/llama.cpp
+
+python3 convert/llama.cpp/convert_hf_to_gguf.py finetuning/gemma-2-9b-it-crag_new --outfile convert/gemma-2-9b-it-crag_new.guff --outtype f16
+
